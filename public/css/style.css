@@ -1,0 +1,8 @@
+body{
+    margin-top:68px;
+    display:flex;
+    flex-direction: column;
+}
+.starter-template{
+    margin-top:20px;
+}

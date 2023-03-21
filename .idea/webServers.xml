@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c6f4547e-15fe-4b07-a8c9-c2d171cda2a9" name="swt-cloud" url="http://tools.hkitlife.com">
+        <fileTransfer host="SERVER-IP-ADDRESS" port="22" privateKey="$USER_HOME$/.ssh/timmy_so" rootFolder="/var/www/vhosts/letgoaltech.com/tools/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

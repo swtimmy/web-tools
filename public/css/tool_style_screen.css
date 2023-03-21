@@ -1,0 +1,139 @@
+@media (min-width: 576px){
+    .navbar-expand-sm .navbar-nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        flex: 1;
+    }
+}
+@media (min-width: 768px){
+    nav .navbar-collapse.collapse.mobile{
+        display: none!important;
+    }
+}
+@media (max-width: 1024px) {
+    #calendar{
+        width:100%;
+        flex:100%;
+        max-width: 100%;
+    }
+}
+@media (max-width: 767px) {
+
+    nav .navbar-collapse.collapse.desktop{
+        display: none!important;
+    }
+
+    .modal.fade .modal-dialog {
+        -webkit-transform: translateY(125%);
+        transform: translateY(125%);
+    }
+
+    .modal .modal-dialog {
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        left: 0;
+        height: initial;
+        display: initial;
+        justify-content: initial;
+        align-items: initial;
+    }
+
+    .modal.show .modal-dialog {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    .modal-content {
+        max-height: 80vh;
+    }
+
+    .fc-toolbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fc-toolbar > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fc-toolbar button {
+        flex: 100%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top: solid 1px #000;
+        font-size: 1.3em !important;
+    }
+
+    .fc-toolbar .fc-right .fc-button-group {
+        display: flex;
+    }
+
+    .fc-toolbar > div > .fc-button-group,
+    .fc-toolbar > div > button {
+        margin-left: 0 !important;
+    }
+
+    .fc-right::after {
+        font-family: FontAwesome;
+        content: "\f013";
+        position: absolute;
+        /*background: #2c3e50;*/
+        top: -2px;
+        margin-right: 15px;
+        right: 0;
+        font-size: 23px;
+        padding: 0px 0px 0px 10px;
+        line-height: 25px;
+        /*color: #fff;*/
+        color: #636b6f;
+        cursor: pointer;
+    }
+
+    .fc-toolbar .fc-right {
+        display: none;
+        max-height: 150px;
+        overflow: auto;
+        transition: all 0.1s linear;
+        cursor: pointer;
+        padding: 10px 0 10px 0;
+    }
+
+    .fc-right.hide {
+        max-height: 0px;
+        padding: 0px 0;
+    }
+
+    .fc-right.active::after {
+        color: #fff;
+        background: #636b6f;
+    }
+
+    .fc-toolbar .fc-left h2 {
+        text-align: left;
+        padding-right: 40px;
+        font-size: 1.35rem !important;
+        margin-bottom: .5rem;
+    }
+    .fc-icon-chevron-right:before{
+        content: "";
+    }
+
+    .fc-toolbar.fc-header-toolbar {
+        margin-bottom: 1rem !important;
+    }
+    nav.navbar{
+        padding: 8px 15px;
+    }
+    .container-fluid{
+        padding-left:0;
+        padding-right:0;
+    }
+    nav.sticky + .container-fluid{
+        margin-top:56px;
+    }
+}

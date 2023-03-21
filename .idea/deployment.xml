@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="swt-cloud">
+    <serverData>
+      <paths name="swt-cloud">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/public/uploads" />
+            <excludedPath path="/public/vendor" />
+            <excludedPath path="/vendor" />
+            <excludedPath local="true" path="/vendor" />
+            <excludedPath local="true" path="public/vendor" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
